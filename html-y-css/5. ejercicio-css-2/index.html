@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ejercicio HTML 5</title>
+  </head>
+  <body>
+    <form method="GET" action="url">
+      <fieldset class="border">
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre
+          <input
+            class="obligatorio"
+            id="nombre"
+            type="text"
+            name="nombre"
+            required
+            autofocus
+          />
+        </label>
+        <label for="email">Correo Electrónico
+          <input
+            class="obligatorio"
+            id="email"
+            type="email"
+            name="email"
+            required
+          />
+        </label>
+        <label for="url">URL
+          <input
+            id="url"
+            type="text"
+            name="url"
+            placeholder="Escribe la URL de tu página web personal"
+          />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Fecha</legend>
+        <label for="fecha">Fecha
+          <input id="fecha" type="date" name="fecha" />
+        </label>
+        <label for="tiempo">Tiempo
+          <input id="tiempo" type="time" name="tiempo" />
+        </label>
+        <label for="fecha-hora">Fecha y Hora
+          <input id="fecha-hora" type="datetime-local" name="fecha-hora" />
+        </label>
+        <label for="mes">Mes
+          <input id="mes" type="month" name="mes" />
+        </label>
+        <label for="semana">Semana
+          <input id="semana" type="week" name="semana" />
+        </fieldset>
+        <fieldset class="border">
+        <legend>Otros</legend>
+        <label for="numero">Número
+          <input id="numero" type="number" name="numero" min="-10" max="10" />
+        </label>
+        <label for="telefono">Teléfono
+          <input
+            id="telefono"
+            type="tel"
+            name="telefono"
+            value="666555444"
+            readonly
+          />
+        </label>
+        <label for="busqueda">Témino de búsqueda
+          <input id="busqueda" type="search" disabled name="busqueda" />
+        </label>
+        <label for="color-fav">Color favorito
+        <input id="color-fav" type="color">
+        </label>
+      </fieldset>
+      <label for="boton">
+        <input id="boton "class="boton" type="submit" value="enviar" />
+      </label>
+    </form>
+  </body>
+</html>

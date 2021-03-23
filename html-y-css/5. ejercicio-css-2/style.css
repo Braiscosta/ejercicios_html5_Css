@@ -1,0 +1,32 @@
+form {
+  margin: 0 auto;
+  max-width: 800px;
+  min-width: 400px;
+}
+
+label {
+  display: inline-block;
+}
+
+.obligatorio {
+  border-color: red;
+}
+
+fieldset {
+  background: rgb(213, 213, 213);
+  padding: 1rem;
+}
+
+fieldset:hover {
+  background: rgb(179, 179, 179);
+}
+
+.border {
+  border-bottom: 5px solid black;
+}
+
+.boton {
+  background-color: black;
+  color: white;
+  border: none;
+}

@@ -1,0 +1,106 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 40px 40px 80px 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-weight: 300;
+}
+
+main {
+  padding: 40px;
+}
+
+section h1 {
+  border-bottom: 2px solid black;
+  color: rgb(91, 91, 91);
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.contenedor {
+  margin-bottom: 20px;
+}
+
+img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer h1 {
+  margin-bottom: 5px;
+}
+
+fieldset {
+  border: none;
+  font-weight: 800;
+}
+
+legend {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+input,
+textarea {
+  background-color: rgb(72, 72, 72);
+  border: none;
+  padding: 15px 0px;
+  width: 100%;
+}
+
+.boton {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  width: 150px;
+}
+
+@media (min-width: 700px) {
+  header {
+    padding-right: 130px;
+    text-align: left;
+  }
+  main {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  .contenedor {
+    display: flex;
+  }
+
+  section p {
+    order: -1;
+  }
+
+  img {
+    padding-left: 10px;
+    width: 50%;
+  }
+}
